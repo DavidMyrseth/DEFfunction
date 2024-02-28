@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6ef2be27-c417-4f42-88d4-c4a7df0d3eaf</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DEFfunction.py</StartupFile>
+    <StartupFile>DEFfolder2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="DEFfunction.py" />
+    <Compile Include="DEFfolder.py" />
+    <Compile Include="DEFfolder2.py" />
+    <Compile Include="module1.py" />
     <Compile Include="MyModel.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
